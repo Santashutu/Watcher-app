@@ -1,0 +1,32 @@
+A procedure of how to connect the raspberry pi to the LORAWAN 
+
+1.Choose a LoRaWAN gateway that is compatible with your Raspberry Pi. 
+There are several options available, such as the RAK831, RAK7243, and Kerlink iFemtoCell etc. 
+Check the gateway documentation to ensure compatibility with your Raspberry Pi model and LoRaWAN network.
+
+2.Connect the LoRaWAN gateway to your Raspberry Pi via USB, GPIO, or Ethernet, depending on the gateway and Pi models you are using.
+Make sure you follow the specific instructions provided in the gateway manual.
+
+3.Install the required gateway software on your Raspberry Pi. This software will depend on the gateway you are using and the LoRaWAN network you want to connect to.
+You can find the installation instructions for the gateway software on the manufacturer's website.
+
+4.Configure the gateway software with the correct settings for your LoRaWAN network. 
+This will include the frequency band, modulation, spreading factor, and other parameters specific to your network.
+You will need to obtain this information from your LoRaWAN network provider.
+
+5.Test the connection between your Raspberry Pi and the LoRaWAN gateway by sending and receiving LoRaWAN packets. 
+You can use a LoRaWAN node or device to test the connection. Make sure you configure the node with the correct settings for your network and gateway.
+
+6Monitor the gateway and node traffic to ensure that LoRaWAN packets are being sent and received correctly. You can use software tools such as Wireshark, tcpdump, or the gateway software itself to monitor the traffic.
+
+Project requirements
+In this project i will be using 
+1.RAK831 Gateway Kit
+2.Raspberry pi 4 board
+3.Lorawan Software
+4.Ethernet cable
+5.Power supply
+
+
+
+
