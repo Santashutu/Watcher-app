@@ -1,4 +1,4 @@
-#Here's an example Python script that uses MQTT to report the connection status of a LoRa gateway:
+#sing MQTT to report the connection status of a LoRa gateway:
 
 
 import time
